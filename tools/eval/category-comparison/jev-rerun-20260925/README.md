@@ -9,6 +9,7 @@ This directory contains the review metadata and a small failure sample for the l
 - SDK retries: disabled.
 - Full output artifact: `jev-mmlu-pro-capture-rerun-20260925.tar.gz`.
 - Full output SHA-256: see `summary.json` and `artifact-sha256.txt`.
+- GitHub artifact: https://github.com/lyy26299/semantic-router/raw/codex/jev-mmlu-pro-rerun/artifacts/jev-mmlu-pro-review-20260925.tar.gz
 - This branch includes `jev-failures-sample.jsonl` (20 public failure records); the full failure review is in the external artifact.
 
 The rerun retained the SDK-parsed response before contract validation. For every non-timeout response it stores `sdk_response.answers.domain.probabilities`, `returned_probabilities`, `probability_sum`, `sum_abs_error`, choice, confidence and usage. This is the complete response object available after SDK parsing; HTTP wire bytes are not captured.
