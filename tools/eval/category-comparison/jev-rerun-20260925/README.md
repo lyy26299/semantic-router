@@ -24,7 +24,7 @@ The rerun retained the SDK-parsed response before contract validation. For every
 - All-request correct rate: see `summary.json`.
 - Coverage: see `summary.json`.
 
-The external artifact contains `jev-failures-with-inputs-and-responses.jsonl`, which joins each public input with the complete SDK-parsed response and validation evidence. This branch includes a 20-record sample for review.
+The external artifact contains `jev-failures-with-inputs-and-responses.jsonl`, which joins each public input with the complete SDK-parsed response and validation evidence. This branch includes a 20-record sample for review. See `failure-analysis.md` for the detailed failure analysis, including observed facts, category distribution, and the limits of causal interpretation.
 
 The original 2 timeout failures were not reproduced in this run. They remain in the original output and should be reported separately; this rerun's failure count must not be merged with the original count without preserving run identity.
 
