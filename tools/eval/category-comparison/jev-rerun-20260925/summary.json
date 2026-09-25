@@ -1,0 +1,31 @@
+{
+  "run_date": "2026-09-25",
+  "model": "jev-1.13.0",
+  "rows": 12032,
+  "valid_rows": 11911,
+  "failed_rows": 121,
+  "errors": {
+    "ValueError: Jev probabilities do not sum to 1": 121
+  },
+  "capture_kind": {
+    "SDK-parsed response, not HTTP wire bytes": 11911,
+    "SDK-parsed response available before validation failure": 121
+  },
+  "failure_probability_sum": {
+    "0.9900000000000001": 121
+  },
+  "failure_sum_abs_error": {
+    "0.009999999999999898": 121
+  },
+  "correct_all": 9152,
+  "correct_valid": 9152,
+  "valid_accuracy_pct": 76.83653765426916,
+  "correct_all_pct": 76.06382978723404,
+  "coverage_pct": 98.99434840425532,
+  "latency_valid_p50_ms": 301.2579160131281,
+  "latency_valid_p95_ms": 456.34200000495184,
+  "output_sha256": "c520171e90a8661c29d4341c27d747bbcb49919fe7c49f63f03401e1f4239346",
+  "input_sha256": "24bfa8663955a83584deda26c94e10073c79adf915cb84060a8398fba469ac26",
+  "mapping_sha256": "48ce5b71a0d3479e460af7e5a39dd05a7c66728380f201a1f794b335de915b1a",
+  "raw_response_definition": "SDK-parsed response.model_dump(mode=json), with returned probability map preserved before contract validation; HTTP wire bytes are not captured."
+}

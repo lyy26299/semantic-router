@@ -1,0 +1,44 @@
+{
+  "status": "supplementary exploratory experiment; not agreed frozen Jev/Kai/Vela pilot",
+  "dataset": {
+    "repo": "TIGER-Lab/MMLU-Pro",
+    "split": "test",
+    "rows": 12032,
+    "input": "question text only",
+    "dataset_revision": "not recorded; exported fixture SHA256 is pinned"
+  },
+  "question": {
+    "name": "domain",
+    "type": "Choice",
+    "instructions": "Which domain best describes the user's request?",
+    "criteria": {
+      "biology": null,
+      "business": null,
+      "chemistry": null,
+      "computer science": null,
+      "economics": null,
+      "engineering": null,
+      "health": null,
+      "history": null,
+      "law": null,
+      "math": null,
+      "other": null,
+      "philosophy": null,
+      "physics": null,
+      "psychology": null
+    },
+    "label_descriptions": "none beyond label names"
+  },
+  "jev": {
+    "model": "jev-1.13.0",
+    "concurrency": 16,
+    "sdk_retries": 0,
+    "timeout_seconds": 10,
+    "timeout_evidence": "failure messages; SDK default, not explicitly set by runner"
+  },
+  "scope": {
+    "Kai": "not run; Laya does not replace Kai",
+    "Laya": "additional exploratory local arm",
+    "production_router_connector": "not exercised"
+  }
+}
